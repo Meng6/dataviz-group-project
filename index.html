@@ -134,7 +134,7 @@
                     "frame": [null, 0]
                 }
                 ],
-                "encoding": {"x": {"field": "BEGIN_DATE_TIME", "type": "temporal"}},
+                "encoding": {"x": {"field": "BEGIN_DATE_TIME", "type": "temporal", "timeUnit": "yearmonthdatehoursminutes"}},
                 "layer": [
                 {
                     "mark": {"type": "line"},
@@ -147,7 +147,7 @@
                     },
                     "color": {"datum": "TOTAL_INJURIES_DIRECT"},
                     "tooltip": [
-                        {"field": "BEGIN_DATE_TIME", "type": "temporal"},
+                        {"field": "BEGIN_DATE_TIME", "type": "temporal", "timeUnit": "yearmonthdatehoursminutes"},
                         {"field": "TOTAL_INJURIES_DIRECT", "type": "quantitative"},
                         {"field": "INJURIES_DIRECT", "type": "quantitative"},
                         {"field": "INJURIES_INDIRECT", "type": "quantitative"},
@@ -170,7 +170,7 @@
                     },
                     "color": {"datum": "TOTAL_INJURIES_INDIRECT"},
                     "tooltip": [
-                        {"field": "BEGIN_DATE_TIME", "type": "temporal"},
+                        {"field": "BEGIN_DATE_TIME", "type": "temporal", "timeUnit": "yearmonthdatehoursminutes"},
                         {"field": "TOTAL_INJURIES_INDIRECT", "type": "quantitative"},
                         {"field": "INJURIES_DIRECT", "type": "quantitative"},
                         {"field": "INJURIES_INDIRECT", "type": "quantitative"},
